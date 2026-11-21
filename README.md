@@ -21,6 +21,7 @@ APP_LOCALE=id
 ```
 Buat database `penilaian_maarif`, lalu:
 ```bash
+php artisan config:clear
 php artisan migrate:fresh --seed
 php artisan serve
 ```
